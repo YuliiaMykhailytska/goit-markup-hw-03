@@ -93,7 +93,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.menu {
+.menu-header {
   display: flex;
   gap: 40px;
 }
@@ -178,7 +178,19 @@ img {
 /* ======================/HERO======================*/
 
 /* ======================ABOUT======================*/
+.about-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
+.menu-about {
+  display: flex;
+  gap: 24px;
+}
+
+.about-list {
+  width: calc((100% - 72px) / 4);
+}
 .about-third-header {
   font-family: var(--font-family-roboto);
   font-weight: 500;
@@ -186,6 +198,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-header-color);
+  margin-bottom: 8px;
 }
 
 .about-description {
