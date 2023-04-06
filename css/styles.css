@@ -189,7 +189,7 @@ img {
 }
 
 .about-list {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .about-third-header {
   font-family: var(--font-family-roboto);
