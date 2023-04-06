@@ -48,9 +48,19 @@ img {
   align-items: center;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .menu-link:hover,
 .menu-link:focus {
   color: var(--menu-link-color);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 .main-logo-link {
@@ -61,6 +71,7 @@ img {
   color: var(--logo-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .head-logo-link {
@@ -82,6 +93,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.menu {
+  display: flex;
+  gap: 40px;
+}
 
 .menu-link {
   width: 67px;
@@ -92,6 +107,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--head-logo-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address {
