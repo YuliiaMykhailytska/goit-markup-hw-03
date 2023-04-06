@@ -8,13 +8,16 @@
   --second-header-color: #2e2f42;
   --main-text-color: #434455;
   --contact-color: #434455;
-  --team-section-color: #F4F4FD;
+  --team-section-color: #f4f4fd;
   --font-family-roboto: "Roboto", sans-serif;
   --font-family-raleway: "Raleway", sans-serif;
   --portfolio-modal-btn-color: #4d5ae5;
   --portfolio-modal-btn-background-color: #f4f4fd;
   --menu-link-color: #404bbf;
+  --border-bottom-color: #e7e9fc;
 }
+
+/* ======================GENERAL======================*/
 
 body {
   font-family: var(--font-family-roboto);
@@ -29,11 +32,21 @@ body {
 .link {
   text-decoration: none;
 }
-/* ======================COMPONENTS======================*/
 
-/* ======================/COMPONENTS======================*/
+img {
+  display: block;
+}
+/* ======================/GENERAL======================*/
 
 /* =====================HEADER===================== */
+.main-header {
+  border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.display-style {
+  display: flex;
+  align-items: center;
+}
 
 .menu-link:hover,
 .menu-link:focus {
