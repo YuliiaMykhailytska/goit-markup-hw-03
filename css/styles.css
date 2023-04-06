@@ -340,6 +340,11 @@ img {
 
 /* =================PORTFOLIO page=================*/
 
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
 .portfolio-modal-btn:hover,
 .portfolio-modal-btn:focus {
   color: var(--background-color);
