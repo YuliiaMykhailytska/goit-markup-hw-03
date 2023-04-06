@@ -113,10 +113,12 @@ img {
 
 .address {
   font-style: normal;
+}
+
+.contact {
   display: flex;
   gap: 40px;
 }
-
 .contact {
   font-family: var(--font-family-roboto);
   font-weight: 400;
