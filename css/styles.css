@@ -25,6 +25,17 @@ body {
   background: var(--background-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -96,6 +107,7 @@ img {
 .menu-header {
   display: flex;
   gap: 40px;
+  padding-left: 0px;
 }
 
 .menu-link {
@@ -118,6 +130,7 @@ img {
 .address-list-style {
   display: flex;
   gap: 40px;
+  padding-left: 0px;
 }
 .contact {
   font-family: var(--font-family-roboto);
@@ -186,6 +199,7 @@ img {
 .menu-about {
   display: flex;
   gap: 24px;
+  padding-left: 0px;
 }
 
 .about-list {
