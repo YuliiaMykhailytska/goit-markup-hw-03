@@ -228,8 +228,6 @@ body {
   color: var(--background-color);
   background: var(--menu-link-color);
 }
-.menu-btn-list {
-}
 
 .portfolio-modal-btn {
   font-family: var(--font-family-roboto);
@@ -243,8 +241,6 @@ body {
   color: var(--portfolio-modal-btn-color);
   background-color: var(--portfolio-modal-btn-background-color);
   cursor: pointer;
-}
-.portfolio-icon {
 }
 
 .portfolio-card-subtitle {
