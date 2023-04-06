@@ -225,6 +225,21 @@ img {
 /* ======================/ABOUT======================*/
 
 /* ========================PORTFOLIO=================== */
+
+.portfolio-section {
+  padding-bottom: 120px;
+}
+
+.menu-portfolio {
+  display: flex;
+  gap: 24px;
+  padding-left: 0px;
+}
+
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-second-header {
   font-family: var(--font-family-roboto);
   font-size: 36px;
@@ -233,6 +248,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--second-header-color);
+  margin-bottom: 72px;
 }
 
 /* ========================/PORTFOLIO=================== */
@@ -291,8 +307,7 @@ img {
 /* =====================/FOOTER===================== */
 /* /MAIN PAGE*/
 
-/* PORTFOLIO MAIN*/
-/* HEADER ANDFOOTER WERE COPIED FROM INDEX.HTML*/
+/* =================PORTFOLIO page=================*/
 
 .portfolio-modal-btn:hover,
 .portfolio-modal-btn:focus {
@@ -331,4 +346,4 @@ img {
   color: var(--main-text-color);
 }
 
-/* /PORTFOLIO MAIN*/
+/* /=================PORTFOLIO page=================*/
