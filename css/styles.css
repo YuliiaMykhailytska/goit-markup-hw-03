@@ -357,6 +357,7 @@ img {
 .portfolio-modal-btn:focus {
   color: var(--background-color);
   background: var(--menu-link-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-modal-btn {
@@ -371,6 +372,7 @@ img {
   color: var(--portfolio-modal-btn-color);
   background-color: var(--portfolio-modal-btn-background-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .portfolio-card-subtitle {
@@ -399,9 +401,7 @@ img {
   padding-left: 120px;
   padding-right: 120px;
 }
-/* .btn-container{
 
-} */
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
