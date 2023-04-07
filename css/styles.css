@@ -339,7 +339,7 @@ img {
 /* /MAIN PAGE*/
 
 /* PORTFOLIO page*/
-/* ====================PORTFOLIO HEADER==================== */
+/* ====================PORTFOLIO header/btn==================== */
 .portfolio-header-container {
   display: flex;
   align-items: center;
@@ -375,33 +375,6 @@ img {
   border-radius: 4px;
 }
 
-.portfolio-card-subtitle {
-  font-family: var(--font-family-roboto);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--head-logo-color);
-}
-
-.portfolio-description {
-  font-family: var(--font-family-roboto);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-} /* ====================/PORTFOLIO HEADER==================== */
-
-/* ====================PORTFOLIO MAIN==================== */
-
-/* ====================/PORTFOLIO MAIN==================== */
-.portfolio-main-section {
-  padding-top: 96px;
-  padding-bottom: 96px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
@@ -413,6 +386,17 @@ img {
   border: 1px solid var(--border-bottom-color);
 }
 
+.portfolio-main-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* ====================/PORTFOLIO HEADER==================== */
+
+/* ====================PORTFOLIO MAIN==================== */
+
 .portfolio-menu-list {
   display: flex;
   flex-wrap: wrap;
@@ -423,4 +407,29 @@ img {
 .portfolio-main-list {
   width: calc((100% - 48px) / 3);
 }
+.portfolio-main-icon {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-card-subtitle {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--head-logo-color);
+  margin-bottom: 8px;
+}
+
+.portfolio-description {
+  font-family: var(--font-family-roboto);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ====================/PORTFOLIO MAIN==================== */
+
 /* //PORTFOLIO page*/
