@@ -47,6 +47,12 @@ ul {
 img {
   display: block;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* ======================/GENERAL======================*/
 
 /* =====================HEADER===================== */
@@ -57,12 +63,6 @@ img {
 .display-style {
   display: flex;
   align-items: center;
-}
-
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .menu-link:hover,
 .menu-link:focus {
