@@ -60,7 +60,7 @@ img {
   border-bottom: 1px solid var(--border-bottom-color);
 }
 
-.display-style {
+.main-header-container {
   display: flex;
   align-items: center;
 }
@@ -123,7 +123,7 @@ img {
   padding-bottom: 24px;
 }
 
-.address {
+.main-address {
   font-style: normal;
 }
 
@@ -338,13 +338,21 @@ img {
 /* =====================/FOOTER===================== */
 /* /MAIN PAGE*/
 
-/* =================PORTFOLIO page=================*/
-
-.main-header {
+/* PORTFOLIO page*/
+/* ====================PORTFOLIO HEADER==================== */
+.portfolio-header-container {
   display: flex;
   align-items: center;
 }
 
+.menu-portfolio-list {
+  display: flex;
+  gap: 40px;
+}
+.menu-address-list {
+  display: flex;
+  gap: 40px;
+}
 .portfolio-modal-btn:hover,
 .portfolio-modal-btn:focus {
   color: var(--background-color);
@@ -380,6 +388,30 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+} /* ====================/PORTFOLIO HEADER==================== */
+
+/* ====================PORTFOLIO MAIN==================== */
+
+/* ====================/PORTFOLIO MAIN==================== */
+.portfolio-main-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+/* .btn-container{
+
+} */
+.portfolio-btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
-/* /=================PORTFOLIO page=================*/
+.btn-list {
+  padding: 12px 24px;
+  border: 1px solid var(--border-bottom-color);
+}
+
+/* //PORTFOLIO page*/
