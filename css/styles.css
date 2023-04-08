@@ -392,16 +392,12 @@ img {
   border: 1px solid var(--border-bottom-color);
 }
 
-.portfolio-main-section {
-  padding-top: 96px;
-  padding-bottom: 96px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
 /* ====================/PORTFOLIO HEADER==================== */
 
 /* ====================PORTFOLIO MAIN==================== */
+.portfolio-main-section {
+  padding: 96px 0 120px;
+}
 
 .portfolio-menu-list {
   display: flex;
@@ -434,6 +430,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.portfolio-main-description {
+  padding: 32px 16px;
+  border: 1px solid var(--border-bottom-color);
 }
 /* ====================/PORTFOLIO MAIN==================== */
 
