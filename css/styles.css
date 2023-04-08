@@ -162,7 +162,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   max-width: 496px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .main-modal-btn {
@@ -345,6 +345,10 @@ img {
 .portfolio-header-container {
   display: flex;
   align-items: center;
+}
+
+.portfolio-main-section {
+  padding: 96px 0 120px;
 }
 
 .menu-portfolio-list {
