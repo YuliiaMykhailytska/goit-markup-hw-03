@@ -127,7 +127,7 @@ img {
   font-style: normal;
 }
 
-.address-list-style {
+.main-address-list {
   display: flex;
   gap: 40px;
   padding-left: 0px;
@@ -351,6 +351,10 @@ img {
   padding: 96px 0 120px;
 }
 
+.portfolio-address {
+  font-style: normal;
+}
+
 .menu-portfolio-list {
   display: flex;
   gap: 40px;
@@ -435,6 +439,7 @@ img {
 .portfolio-main-description {
   padding: 32px 16px;
   border: 1px solid var(--border-bottom-color);
+  border-top: none;
 }
 /* ====================/PORTFOLIO MAIN==================== */
 
